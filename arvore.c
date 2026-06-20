@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdbool.h>
-
-
 #include "print-ab.h"
+
+//comando para compilar: gcc -o arvore arvore.c -lncurses
 
 // nó da arvore binaria de busca
 struct s_no
