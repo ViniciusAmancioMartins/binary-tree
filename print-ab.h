@@ -1,24 +1,3 @@
-/*
-	Impressão de árvore binária usando biblioteca NCURSES 
-    Requer instalação do pacote ncurses-dev
-	Instalação do pacote: sudo apt install ncurses-dev
-
-    O registro do nó deve corresponder ao apresentado a seguir. O nome do registro e 
-    os nomes dos campos podem diferir, mas os tipos e ordem dos campos não.
-	struct s_no
-	{
-		int32_t chave:30;
-		int32_t reservado:2;
-		struct s_no* esq;
-		struct s_no* dir;
-	};
-
-	Para imprimir a árvore, basta incluir o arquivo print-ab.h e chamar imprime_arvore(raiz)
-	
-	No processo de compilação é necessário usar a opção -lncurses
-	Ex.: gcc -o main main.c -lncurses
-*/
-
 #include <stdint.h>
 #include <string.h>
 #include <ncurses.h>
